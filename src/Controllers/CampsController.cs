@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Routing;
 
 namespace CoreCodeCamp.Controllers
 {
+    //[Route("api/v{version:apiVersion}/[controller]")] // Use it in case of using versioning by URL
     [Route("api/[controller]")]
     [ApiController]
     [ApiVersion("1.0")]
