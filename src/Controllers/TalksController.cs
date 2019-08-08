@@ -139,7 +139,7 @@ namespace CoreCodeCamp.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult<TalkModel>> Put(string moniker, int id)
+        public async Task<ActionResult<TalkModel>> Delete(string moniker, int id)
         {
             try
             {
